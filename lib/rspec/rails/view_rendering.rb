@@ -48,6 +48,7 @@ module RSpec
 
         def initialize(original_path_set)
           @original_path_set = original_path_set
+          super()
         end
 
         def find_all(*args)
